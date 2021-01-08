@@ -1,0 +1,21 @@
+Dependencies:
+
+conda create --name myOpenCV python=3.5
+activate myOpenCV
+conda install numpy
+conda install anaconda-client
+conda install --channel https://conda.anaconda.org/menpo opencv3
+conda install spyder
+conda install -c conda-forge opencv
+pip install opencv-python
+
+---
+
+spyder launch:
+
+1.conda create -n spyder-env spyder=4
+2.conda create -n spyder-env spyder=4 numpy scipy pandas matplotlib sympy cython -c conda-forge
+3.conda activate spyder-env
+4.spyder
+
+
